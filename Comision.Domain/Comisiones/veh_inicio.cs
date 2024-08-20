@@ -6,4 +6,4 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record veh_inicio(int Value);
+public record Veh_Inicio(int Value);

@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record fecha_registro_dir(int Value);
+public record Fecha_Registro_Dir(int Value);
  

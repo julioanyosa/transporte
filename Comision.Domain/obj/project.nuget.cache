@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dCxGty1xya730WouWMeCsV41s8KNdkUM4ycNqhQ+9cpfHQayimAbXC1OE3NHOrxBnmAWUJqC8o9mCTW+9iEg7g==",
+  "dgSpecHash": "jlHRZ6LjFW+9lQfQn+ZjebGQj82BFNP6U5yZoRCrzRK+0Th2mWuOlQPElIY/db8ldstDdIGYEK9oY9mwUT/Ggg==",
   "success": true,
-  "projectFilePath": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comision.Domain.csproj",
+  "projectFilePath": "C:\\janyosa\\Sistemas\\transporte\\Comision.Domain\\Comision.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -5,5 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record cant_usuario(int Value);
+public record Cant_usuario(int Value);
  

@@ -5,5 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record telefono(string Value);
+public record Telefono(string Value);
  

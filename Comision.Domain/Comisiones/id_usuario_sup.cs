@@ -5,4 +5,4 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record id_usuario_sup(int Value);
+public record Id_Usuario_Sup(int Value);

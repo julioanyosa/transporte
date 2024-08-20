@@ -7,20 +7,20 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record correo_sec
+public record Correo_Sec
 {
     public string Value { get; init; }
 
-    private correo_sec(string value)
+    private Correo_Sec(string value)
     {
         Value = value;
     }
 
-    public static Result<correo_sec> Create(string _value)
+    public static Result<Correo_Sec> Create(string _value)
     {
         if (EsCorreoValido(_value))
         {
-            return new correo_sec(_value);
+            return new Correo_Sec(_value);
         }
         throw new InvalidOperationException("El correo electronico no es valido");
     }

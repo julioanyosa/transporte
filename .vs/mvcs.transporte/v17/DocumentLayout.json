@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\vivienda\\sistemas\\mvcs.transporte\\",
+  "WorkspaceRootPath": "C:\\janyosa\\Sistemas\\transporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03BE25B7-668D-4BE5-811D-9CB0C127F20E}|Comision.Domain\\Comision.Domain.csproj|d:\\vivienda\\sistemas\\mvcs.transporte\\comision.domain\\comisiones\\comision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03BE25B7-668D-4BE5-811D-9CB0C127F20E}|Comision.Domain\\Comision.Domain.csproj|solutionrelative:comision.domain\\comisiones\\comision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03BE25B7-668D-4BE5-811D-9CB0C127F20E}|Comision.Domain\\Comision.Domain.csproj|d:\\vivienda\\sistemas\\mvcs.transporte\\comision.domain\\comisiones\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03BE25B7-668D-4BE5-811D-9CB0C127F20E}|Comision.Domain\\Comision.Domain.csproj|solutionrelative:comision.domain\\comisiones\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03BE25B7-668D-4BE5-811D-9CB0C127F20E}|Comision.Domain\\Comision.Domain.csproj|c:\\janyosa\\sistemas\\transporte\\comision.domain\\comisiones\\od_comision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03BE25B7-668D-4BE5-811D-9CB0C127F20E}|Comision.Domain\\Comision.Domain.csproj|solutionrelative:comision.domain\\comisiones\\od_comision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "personal.cs",
-              "DocumentMoniker": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comisiones\\personal.cs",
-              "RelativeDocumentMoniker": "Comision.Domain\\Comisiones\\personal.cs",
-              "ToolTip": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comisiones\\personal.cs",
-              "RelativeToolTip": "Comision.Domain\\Comisiones\\personal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T02:43:43.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Comision.cs",
-              "DocumentMoniker": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comisiones\\Comision.cs",
-              "RelativeDocumentMoniker": "Comision.Domain\\Comisiones\\Comision.cs",
-              "ToolTip": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comisiones\\Comision.cs",
-              "RelativeToolTip": "Comision.Domain\\Comisiones\\Comision.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDsAAAAYAAAA",
+              "Title": "OD_Comision.cs",
+              "DocumentMoniker": "C:\\janyosa\\Sistemas\\transporte\\Comision.Domain\\Comisiones\\OD_Comision.cs",
+              "RelativeDocumentMoniker": "Comision.Domain\\Comisiones\\OD_Comision.cs",
+              "ToolTip": "C:\\janyosa\\Sistemas\\transporte\\Comision.Domain\\Comisiones\\OD_Comision.cs",
+              "RelativeToolTip": "Comision.Domain\\Comisiones\\OD_Comision.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAswGUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T02:39:14.32Z",
+              "WhenOpened": "2024-08-20T19:01:49.618Z",
               "EditorCaption": ""
             }
           ]

@@ -6,4 +6,4 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record id_usuario_oga(int Value);
+public record Id_Usuario_Oga(int Value);

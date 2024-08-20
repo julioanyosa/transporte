@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record vcoordinador
+public record Vcoordinador
 {
 
     public string vusuario_coordinador { get; init; }
     public string vdni_coordinador { get; init; }
     public DateTime? dfecha_coordinador { get; init; }
 
-    public vcoordinador(string _vusuario_coordinador, string _vdni_coordinador, DateTime _dfecha_coordinador)
+    public Vcoordinador(string _vusuario_coordinador, string _vdni_coordinador, DateTime _dfecha_coordinador)
     {
         vusuario_coordinador = _vusuario_coordinador;
         vdni_coordinador = _vdni_coordinador;
         dfecha_coordinador = _dfecha_coordinador;
     }
 
-    public static vcoordinador Create(string _vusuario_coordinador, string _vdni_coordinador, DateTime _dfecha_coordinador)
+    public static Vcoordinador Create(string _vusuario_coordinador, string _vdni_coordinador, DateTime _dfecha_coordinador)
     {
         if (string.IsNullOrWhiteSpace(_vusuario_coordinador))
         {
@@ -30,7 +30,7 @@ public record vcoordinador
         {
             throw new InvalidOperationException("El DNI del usuario no puede ser nula o vacia");
         }
-        return new vcoordinador(_vusuario_coordinador, _vdni_coordinador, _dfecha_coordinador);
+        return new Vcoordinador(_vusuario_coordinador, _vdni_coordinador, _dfecha_coordinador);
     }
 
 

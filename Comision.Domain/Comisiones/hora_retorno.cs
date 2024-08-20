@@ -5,5 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record hora_retorno(string Value);
+public record Hora_Retorno(string Value);
  

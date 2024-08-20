@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record id_usuario_dir(int Value);
+public record Id_Usuario_Dir(int Value);
 
 

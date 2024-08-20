@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record vusuario
+public record Vusuario
 {
 
     public string vusuario_ingresa { get; init; }
     public string vdni_ingresa { get; init; }
 
-    public vusuario(string _vusuario_ingresa, string _vdni_ingresa)
+    public Vusuario(string _vusuario_ingresa, string _vdni_ingresa)
     {
         vusuario_ingresa = _vusuario_ingresa;
         vdni_ingresa = _vdni_ingresa;
     }
 
-    public static vusuario Create(string _vusuario_ingresa, string _vdni_ingresa)
+    public static Vusuario Create(string _vusuario_ingresa, string _vdni_ingresa)
     {
         if (string.IsNullOrWhiteSpace(_vusuario_ingresa))
         {
@@ -28,7 +28,7 @@ public record vusuario
         {
             throw new InvalidOperationException("El DNI del usuario no puede ser nula o vacia");
         }
-        return new vusuario(_vusuario_ingresa, _vdni_ingresa);
+        return new Vusuario(_vusuario_ingresa, _vdni_ingresa);
     }
 
 

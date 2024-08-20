@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record id_comision
+public record Id_Comision
 {
 
     public int Value { get; init; }
 
-    public id_comision(int _value)
+    public Id_Comision(int _value)
     {
         Value = _value;
     }
 
-    public static id_comision Create(int _value)
+    public static Id_Comision Create(int _value)
     {
         if (_value < 0)
         {
             throw new InvalidOperationException("El Id no puede ser menor a cero");
         }
-        return new id_comision(_value);
+        return new Id_Comision(_value);
     }
 
 

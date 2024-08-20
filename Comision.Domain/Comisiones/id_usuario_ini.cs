@@ -5,5 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record id_usuario_ini(int Value);
+public record Id_Usuario_Ini(int Value);
  

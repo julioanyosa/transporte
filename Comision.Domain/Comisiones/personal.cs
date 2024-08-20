@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record personal
+public record Personal
 (
     int? id_personal,
     string? nombres,

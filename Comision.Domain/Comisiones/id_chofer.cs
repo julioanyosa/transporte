@@ -5,5 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record id_chofer(int Value);
+public record Id_Chofer(int Value);
  

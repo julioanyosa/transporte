@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record siglas
+public record Siglas
 {
 
     public string Value { get; init; }
 
-    public siglas(string _value)
+    public Siglas(string _value)
     {
         Value = _value;
     }
 
-    public static siglas Create(string _value)
+    public static Siglas Create(string _value)
     {
         if (string.IsNullOrWhiteSpace(_value))
         {
             throw new InvalidOperationException("Las siglas no pueden ser vacio");
         }
-        return new siglas(_value);
+        return new Siglas(_value);
     }
 
 

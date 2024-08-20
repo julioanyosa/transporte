@@ -5,5 +5,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public record km_Salida(string Value);
+public record Km_Salida(string Value);
  

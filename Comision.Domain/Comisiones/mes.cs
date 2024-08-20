@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
 
-public record mes
+public record Mes
 {
 
     public string Value { get; init; }
 
-    public mes(string _value)
+    public Mes(string _value)
     {
         Value = _value;
     }
 
-    public static mes Create(string _value)
+    public static Mes Create(string _value)
     {
         if (string.IsNullOrWhiteSpace(_value))
         {
             throw new InvalidOperationException("El mes no puede ser vacio");
         }
-        return new mes(_value);
+        return new Mes(_value);
     }
 
 

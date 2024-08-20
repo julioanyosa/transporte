@@ -172,23 +172,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\pnsr_utps_jcac\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Application\\Comision.Application.csproj",
+      "projectUniqueName": "C:\\janyosa\\Sistemas\\transporte\\Comision.Application\\Comision.Application.csproj",
       "projectName": "Comision.Application",
-      "projectPath": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Application\\Comision.Application.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Application\\obj\\",
+      "projectPath": "C:\\janyosa\\Sistemas\\transporte\\Comision.Application\\Comision.Application.csproj",
+      "packagesPath": "C:\\Users\\pnsr_utps_jcac\\.nuget\\packages\\",
+      "outputPath": "C:\\janyosa\\Sistemas\\transporte\\Comision.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pnsr_utps_jcac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -204,8 +204,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comision.Domain.csproj": {
-              "projectPath": "D:\\vivienda\\sistemas\\mvcs.transporte\\Comision.Domain\\Comision.Domain.csproj"
+            "C:\\janyosa\\Sistemas\\transporte\\Comision.Domain\\Comision.Domain.csproj": {
+              "projectPath": "C:\\janyosa\\Sistemas\\transporte\\Comision.Domain\\Comision.Domain.csproj"
             }
           }
         }
@@ -250,7 +250,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

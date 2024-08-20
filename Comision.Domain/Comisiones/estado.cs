@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Comision.Domain.Comisiones;
-public enum estado
+public enum Estado
 {
     Activo = 1,
     Inactivo = 0,
